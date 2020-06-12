@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365MailParser.Web.Processor", "Office365MailParser.Web.Processor\Office365MailParser.Web.Processor.csproj", "{A13E233B-60A0-440D-BA81-3697A3B971DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{2BF218C0-8EC6-4622-9834-54F96AE27F1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{958B5F9D-51B7-4046-A390-7A65E6EBBD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365MailParser.Core.Tests", "Office365MailParser.Core.Tests\Office365MailParser.Core.Tests.csproj", "{DB00BE92-8B29-47F3-835F-C02A334F7863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365MailParser.Core", "Office365MailParser.Core\Office365MailParser.Core.csproj", "{F85E7057-B9B5-402F-85CF-625F0C9F9C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365MailParser.WebUI", "Office365MailParser.WebUI\Office365MailParser.WebUI.csproj", "{D0DB54EE-E62E-4243-A774-66E954C255A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13E233B-60A0-440D-BA81-3697A3B971DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13E233B-60A0-440D-BA81-3697A3B971DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13E233B-60A0-440D-BA81-3697A3B971DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13E233B-60A0-440D-BA81-3697A3B971DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB00BE92-8B29-47F3-835F-C02A334F7863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB00BE92-8B29-47F3-835F-C02A334F7863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB00BE92-8B29-47F3-835F-C02A334F7863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB00BE92-8B29-47F3-835F-C02A334F7863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85E7057-B9B5-402F-85CF-625F0C9F9C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85E7057-B9B5-402F-85CF-625F0C9F9C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85E7057-B9B5-402F-85CF-625F0C9F9C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85E7057-B9B5-402F-85CF-625F0C9F9C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DB54EE-E62E-4243-A774-66E954C255A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DB54EE-E62E-4243-A774-66E954C255A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DB54EE-E62E-4243-A774-66E954C255A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DB54EE-E62E-4243-A774-66E954C255A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A13E233B-60A0-440D-BA81-3697A3B971DF} = {2BF218C0-8EC6-4622-9834-54F96AE27F1C}
+		{DB00BE92-8B29-47F3-835F-C02A334F7863} = {958B5F9D-51B7-4046-A390-7A65E6EBBD2B}
+		{F85E7057-B9B5-402F-85CF-625F0C9F9C7F} = {2BF218C0-8EC6-4622-9834-54F96AE27F1C}
+		{D0DB54EE-E62E-4243-A774-66E954C255A0} = {2BF218C0-8EC6-4622-9834-54F96AE27F1C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C355933-1B90-4F1F-9703-979463BEB64B}
+	EndGlobalSection
+EndGlobal
