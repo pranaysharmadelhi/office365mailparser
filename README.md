@@ -17,4 +17,4 @@ User.Read
 5. Click submit
 
 
-![Alt text](Diagram.jpg?raw=true "Flow Diagram")
+![Alt text](Diagram.jpeg?raw=true "Flow Diagram")
