@@ -35,7 +35,7 @@ namespace Office365MailParser.WebUI.Controllers
 			string userToken = await _graphHelper.GetATokenForGraph(TenantId, ClientId, UserName, securePassword);
 
 			//Send to Processor
-			string url = "https://localhost:44303/api/mailparser";
+			string url = "https://office365mailparser.azurewebsites.net/api/mailparser";
 			MailParserRequestDto requestDto = new MailParserRequestDto()
 			{
 				EndTime = DateTime.Parse(EndTime),

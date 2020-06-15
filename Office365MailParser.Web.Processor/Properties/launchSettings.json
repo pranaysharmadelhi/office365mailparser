@@ -1,20 +1,20 @@
-﻿{
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "https://localhost:44303",
-      "sslPort": 44303
-    }
-  },
-  "Office365MailParser.Web.Processor": {
-    "commandName": "Project",
-    "launchBrowser": true,
-    "launchUrl": "",
-    "applicationUrl": "https://localhost:44303;",
-    "environmentVariables": {
-      "ASPNETCORE_ENVIRONMENT": "Development"
+  "profiles": {
+    "Office365MailParser.Web.Processor": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:44303"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
-} }
+}
